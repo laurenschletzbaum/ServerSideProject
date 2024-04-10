@@ -1,4 +1,3 @@
-<!--This page is going to contain the header and footer with the list of workouts for the user to choose-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -51,6 +50,9 @@
     </form>
 </div>
             <?php
+            // Include the header
+            include 'header.html';
+        
             // Connect to database
             $connection = mysqli_connect("localhost", "root", "", "gym");
 
